@@ -1,8 +1,8 @@
 <?php
 namespace App\Controller;
 use Symfony\Component\HttpFoundation\Response;
-
-class HomeController{
+use Symfony\Component\Routing\Annotation\Route;
+class PropertyController{
     /**
      * @var Environment
      */
@@ -12,7 +12,6 @@ class HomeController{
     }
     public function index():Response
     {
-        return new Response($this->twig->render('pages/home.html.twig'));
+        return new Response($this->twig->render('property/index.html.twig'));
     }
 }
-?>
