@@ -4,6 +4,4 @@ home:
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
-property:
-  path: /
-  controller:   App\Controller\PropertyController::index
+
